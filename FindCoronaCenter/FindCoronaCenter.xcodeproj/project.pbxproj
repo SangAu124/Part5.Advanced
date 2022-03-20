@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EF80CFB027E2B86900F097C9 /* FindCoronaCenterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80CFAF27E2B86900F097C9 /* FindCoronaCenterApp.swift */; };
-		EF80CFB227E2B86900F097C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80CFB127E2B86900F097C9 /* ContentView.swift */; };
 		EF80CFB427E2B86A00F097C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF80CFB327E2B86A00F097C9 /* Assets.xcassets */; };
 		EF80CFB727E2B86A00F097C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF80CFB627E2B86A00F097C9 /* Preview Assets.xcassets */; };
 		EF80CFBE27E2B8D600F097C9 /* CenterAPIReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80CFBD27E2B8D600F097C9 /* CenterAPIReponse.swift */; };
@@ -19,12 +18,14 @@
 		EF80CFCB27E2C06D00F097C9 /* SelectRegionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80CFCA27E2C06D00F097C9 /* SelectRegionViewModel.swift */; };
 		EF80CFCD27E2C3CC00F097C9 /* SelectRegionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80CFCC27E2C3CC00F097C9 /* SelectRegionItem.swift */; };
 		EF80CFD027E3284600F097C9 /* CenterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80CFCF27E3284600F097C9 /* CenterRow.swift */; };
+		EFDA5C4027E6BDCF00A1D305 /* CenterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA5C3F27E6BDCF00A1D305 /* CenterList.swift */; };
+		EFDA5C4427E6C91600A1D305 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA5C4327E6C91600A1D305 /* MapView.swift */; };
+		EFDA5C4627E6CCB500A1D305 /* CenterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA5C4527E6CCB500A1D305 /* CenterDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF80CFAC27E2B86900F097C9 /* FindCoronaCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCoronaCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF80CFAF27E2B86900F097C9 /* FindCoronaCenterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCoronaCenterApp.swift; sourceTree = "<group>"; };
-		EF80CFB127E2B86900F097C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF80CFB327E2B86A00F097C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF80CFB627E2B86A00F097C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF80CFBD27E2B8D600F097C9 /* CenterAPIReponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPIReponse.swift; sourceTree = "<group>"; };
@@ -35,6 +36,9 @@
 		EF80CFCA27E2C06D00F097C9 /* SelectRegionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionViewModel.swift; sourceTree = "<group>"; };
 		EF80CFCC27E2C3CC00F097C9 /* SelectRegionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRegionItem.swift; sourceTree = "<group>"; };
 		EF80CFCF27E3284600F097C9 /* CenterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterRow.swift; sourceTree = "<group>"; };
+		EFDA5C3F27E6BDCF00A1D305 /* CenterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterList.swift; sourceTree = "<group>"; };
+		EFDA5C4327E6C91600A1D305 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EFDA5C4527E6CCB500A1D305 /* CenterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				EF80CFAF27E2B86900F097C9 /* FindCoronaCenterApp.swift */,
-				EF80CFB127E2B86900F097C9 /* ContentView.swift */,
 				EF80CFB327E2B86A00F097C9 /* Assets.xcassets */,
 				EF80CFB527E2B86A00F097C9 /* Preview Content */,
 				EF80CFC027E2B8F100F097C9 /* Entities */,
@@ -107,12 +110,31 @@
 		EF80CFCE27E2C63F00F097C9 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				EFDA5C4227E6C8CD00A1D305 /* SelectRegionView */,
+				EFDA5C4127E6C8C400A1D305 /* CenterList */,
+				EFDA5C4327E6C91600A1D305 /* MapView.swift */,
+				EFDA5C4527E6CCB500A1D305 /* CenterDetailView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EFDA5C4127E6C8C400A1D305 /* CenterList */ = {
+			isa = PBXGroup;
+			children = (
+				EF80CFCF27E3284600F097C9 /* CenterRow.swift */,
+				EFDA5C3F27E6BDCF00A1D305 /* CenterList.swift */,
+			);
+			path = CenterList;
+			sourceTree = "<group>";
+		};
+		EFDA5C4227E6C8CD00A1D305 /* SelectRegionView */ = {
+			isa = PBXGroup;
+			children = (
 				EF80CFC827E2C05400F097C9 /* SelectRegionView.swift */,
 				EF80CFCA27E2C06D00F097C9 /* SelectRegionViewModel.swift */,
 				EF80CFCC27E2C3CC00F097C9 /* SelectRegionItem.swift */,
-				EF80CFCF27E3284600F097C9 /* CenterRow.swift */,
 			);
-			path = Presentation;
+			path = SelectRegionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,11 +208,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF80CFC227E2B95500F097C9 /* Center.swift in Sources */,
+				EFDA5C4427E6C91600A1D305 /* MapView.swift in Sources */,
 				EF80CFCD27E2C3CC00F097C9 /* SelectRegionItem.swift in Sources */,
+				EFDA5C4027E6BDCF00A1D305 /* CenterList.swift in Sources */,
 				EF80CFC727E2BD3F00F097C9 /* CenterNetwork.swift in Sources */,
+				EFDA5C4627E6CCB500A1D305 /* CenterDetailView.swift in Sources */,
 				EF80CFD027E3284600F097C9 /* CenterRow.swift in Sources */,
 				EF80CFC427E2BBF600F097C9 /* CenterAPI.swift in Sources */,
-				EF80CFB227E2B86900F097C9 /* ContentView.swift in Sources */,
 				EF80CFC927E2C05400F097C9 /* SelectRegionView.swift in Sources */,
 				EF80CFB027E2B86900F097C9 /* FindCoronaCenterApp.swift in Sources */,
 				EF80CFCB27E2C06D00F097C9 /* SelectRegionViewModel.swift in Sources */,

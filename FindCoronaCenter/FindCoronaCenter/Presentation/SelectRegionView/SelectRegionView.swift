@@ -19,17 +19,17 @@ struct SelectRegionView: View {
                 LazyVGrid(columns: items, spacing: 20) {
                     ForEach(Center.Sido.allCases, id: \.id) { sido in
                         let centers = viewModel.centers[sido] ?? []
-//                        NavigationLink(destination: CenterList(centers: centers)) {
-//                            SelectRegionItem(region: sido, count: centers.count)
-//                        }
+                        //                        NavigationLink(destination: CenterList(centers: centers)) {
+                        SelectRegionItem(region: sido, count: centers.count)
                     }
                 }
-                .padding()
-                .navigationTitle("코로나19 예방접종 센터")
             }
+            .padding()
+            .navigationTitle("코로나19 예방접종 센터")
         }
     }
 }
+
 
 struct SelectRegionView_Previews: PreviewProvider {
     static var previews: some View {

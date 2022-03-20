@@ -43,8 +43,7 @@ class CenterNetwork {
             }
             .decode(type: CenterAPIResponse.self, decoder: JSONDecoder())
             .map { $0.data }
-            .mapError { $0 as! URLError}
+            .mapError { $0 as! URLError }
             .eraseToAnyPublisher()
-                
     }
 }
